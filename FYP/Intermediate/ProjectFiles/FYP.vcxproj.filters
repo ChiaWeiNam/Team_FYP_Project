@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\FYP.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{24438FE8-1F96-4441-B8CE-1340A9A19FA5}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\FYP.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\FYPEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{27F32C02-6267-48D0-A915-2F826A15150C}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\FYP">
+			<UniqueIdentifier>{A3B25221-4A15-40CC-850B-AD520568A947}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\FYP\FYP.Build.cs">
+			<Filter>Source\FYP</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\FYP\FYP.cpp">
+			<Filter>Source\FYP</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FYP\FYP.h">
+			<Filter>Source\FYP</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FYP\MyAvatar.cpp">
+			<Filter>Source\FYP</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FYP\MyAvatar.h">
+			<Filter>Source\FYP</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
